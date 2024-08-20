@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://jackie-greenbaum.github.io',
-  base: 'src',
+  // base: 'src',
   integrations: [mdx(), sitemap(), tailwind()]
 });
